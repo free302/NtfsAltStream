@@ -1,8 +1,10 @@
 # NtfsAltStream
 - [x] NTFS Alternate Stream 조작 라이브러리 및 테스트
 - [x] `Lib` : library, win32 api
-- [x] `Service` : test app, Windows service
+- [x] `Service` : test app, Windows service 형태  
 - [x] `Tester` : test app, WinForms
+  - 테스트는 `WindowsService1.MyTask.Run()` 실행
+  - 파일에 대한 실제 작업은 `MyTask.doSomthingWithTheFile()`에서 수행
 
 ### TODOs
 - [ ] delete stream 메소드 추가
